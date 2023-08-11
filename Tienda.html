@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Comidas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="Tienda.css">
+</head>
+<body>
+    <header>
+        <h1>LA MAGNIFICARNE</h1>
+    </header>
+
+    <section class="contenedor">
+
+        <div class="contenedor-item">
+            <div class="item">
+            <span class="titulo-item">Sencilla</span>
+            <img src="platillo1.jpg" alt="" class="img-item">
+            <span class="precio-item">$15.000</span>
+            <button class="boton-item">Agregar al Carrito</button>
+            </div>
+
+                <div class="item">
+                    <span class="titulo-item">Hamburguesa con papas</span>
+                    <img src="platillo2.jpg" alt="" class="img-item">
+                    <span class="precio-item">$25.000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="item">
+                        <span class="titulo-item">Hamburguesa doble</span>
+                        <img src="platillo3.jpg" alt="" class="img-item">
+                        <span class="precio-item">$35.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        </div>
+
+                        <div class="item">
+                            <span class="titulo-item">Vegetariana</span>
+                            <img src="platillo4.jpg" alt="" class="img-item">
+                            <span class="precio-item">$15.000</span>
+                            <button class="boton-item">Agregar al Carrito</button>
+                            </div>
+
+                        <div class="item">
+                            <span class="titulo-item">Combo</span>
+                            <img src="platillo5.jpg" alt="" class="img-item">
+                            <span class="precio-item">$15.000</span>
+                            <button class="boton-item">Agregar al Carrito</button>
+                            </div>
+
+                            <div class="item">
+                                <span class="titulo-item">Sencilla</span>
+                                <img src="platillo1.jpg" alt="" class="img-item">
+                                <span class="precio-item">$15.000</span>
+                                <button class="boton-item">Agregar al Carrito</button>
+                                </div>
+
+                                <div class="item">
+                                    <span class="titulo-item">Hamburguesa con papas</span>
+                                    <img src="platillo2.jpg" alt="" class="img-item">
+                                    <span class="precio-item">$15.000</span>
+                                    <button class="boton-item">Agregar al Carrito</button>
+                                    </div>
+
+                                    <div class="item">
+                                        <span class="titulo-item">Hamburguesa doble</span>
+                                        <img src="platillo3.jpg" alt="" class="img-item">
+                                        <span class="precio-item">$15.000</span>
+                                        <button class="boton-item">Agregar al Carrito</button>
+                                        </div>
+        </div>
+
+        <div class="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <div class="carrito-item">
+                    <img src="platillo5.jpg" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Combo</span>
+                        <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000</span>
+                    </div>
+                
+
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+
+                </span>
+                </div>
+
+                <div class="carrito-item">
+                    <img src="platillo1.jpg" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Sencilla</span>
+                        <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="2" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$30.000</span>
+                    </div>
+                
+
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+
+                </span>
+                </div>
+
+
+            </div>
+
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+
+                <button  class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+        </div>
+
+           
+        
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
